@@ -1,0 +1,37 @@
+name: Replace README
+
+on:
+  workflow_dispatch:
+    inputs:
+      time:
+        description: 'time list'
+        required: false
+
+env:
+  # change env here
+  GITHUB_NAME: CodeMeditator
+  GITHUB_EMAIL: richardchen.rayage@hotmail.com
+
+jobs:
+  sync:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+          cache: "pip" # caching pip dependencies
+
+      - name: Replace README
+        run: |
+          python main.py $'${{ github.event.inputs.time }}'
+
+      - name: Push README
+        run: |
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git config --local user.name "${{ env.GITHUB_NAME }}"
+          git commit -a -m 'update new heart' || echo "nothing to commit"
+          git push || echo "nothing to push"
