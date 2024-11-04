@@ -6,7 +6,7 @@ from collections import defaultdict
 GITHUB_README_COMMENTS = (
     "(<!--START_SECTION:{name}-->\n)(.*)(<!--END_SECTION:{name}-->\n)"
 )
-SLEEP_HEAD = "| Time | \n | ---- | ---- | \n"
+SLEEP_HEAD = "| Time | \n | ---- | \n"
 SLEEP_STAT_TEMPLATE = "| {time} |\n"
 OUT_FOLDER = os.path.join(os.getcwd(), "files")
 
