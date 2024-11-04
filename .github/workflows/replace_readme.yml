@@ -25,6 +25,10 @@ jobs:
           python-version: "3.10"
           cache: "pip" # caching pip dependencies
 
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
       - name: Replace README
         run: |
           python main.py $'${{ github.event.inputs.time }}'
