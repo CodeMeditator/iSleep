@@ -12,7 +12,6 @@ Using Apple Watch to collect sleep data and syncing the collected data to GitHub
 | Oct 31, 2024: 06:58 |
 | Oct 30, 2024: 06:57 |
 | Oct 29, 2024: 06:57 |
-| Oct 28, 2024: 06:58 |
 
 <!--END_SECTION:my_sleep-->
 
