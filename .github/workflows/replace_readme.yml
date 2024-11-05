@@ -3,8 +3,11 @@ name: Replace README
 on:
   workflow_dispatch:
     inputs:
-      time:
-        description: "time list"
+      startTime:
+        description: "start time list"
+        required: false
+      endTime:
+        description: "end time list"
         required: false
 
 env:
