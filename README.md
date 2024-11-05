@@ -21,10 +21,10 @@ Using Apple Watch to collect sleep data and syncing the collected data to GitHub
 1. Get action id.
 2. Configure IOS Shortcuts.
 
-<img src="/imgs/img1.png"/>
-<img src="/imgs/img2.png"/>
-<img src="/imgs/img3.png"/>
-<img src="/imgs/img4.png"/>
+<img src="/imgs/img1.png" width="400"/>
+<img src="/imgs/img2.png" width="400"/>
+<img src="/imgs/img3.png" width="400"/>
+<img src="/imgs/img4.png" width="400"/>
 
 # GitHub Actions
 
