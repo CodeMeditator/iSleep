@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       time:
-        description: 'time list'
+        description: "time list"
         required: false
 
 env:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Replace README
         run: |
-          python main.py $'${{ github.event.inputs.time }}'
+          python main.py $'${{ github.event.inputs.startTime }}' $'${{ github.event.inputs.endTime }}'
 
       - name: Push README
         run: |
