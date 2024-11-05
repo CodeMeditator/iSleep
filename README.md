@@ -3,8 +3,9 @@
 Using Apple Watch to collect sleep data and syncing the collected data to GitHub profile.
 
 <!--START_SECTION:my_sleep-->
-| Start Time | End Time |
-| ---- | ---- |
+
+| Start Time            | End Time              |
+| --------------------- | --------------------- |
 | Nov 05, 2024 at 00:29 | Nov 05, 2024 at 06:58 |
 | Nov 04, 2024 at 00:33 | Nov 04, 2024 at 06:51 |
 | Nov 03, 2024 at 03:08 | Nov 03, 2024 at 08:22 |
@@ -17,9 +18,19 @@ Using Apple Watch to collect sleep data and syncing the collected data to GitHub
 
 # Steps
 
+1. Get action id.
+2. Configure IOS Shortcuts.
+
+<img src="/imgs/img1.png"/>
+<img src="/imgs/img2.png"/>
+<img src="/imgs/img3.png"/>
+<img src="/imgs/img4.png"/>
+
 # GitHub Actions
 
 # Inspiration & Thx
+
+1. [iBeats](https://github.com/yihong0618/iBeats)
 
 # Find this repository useful? :heart:
 
