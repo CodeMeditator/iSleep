@@ -5,13 +5,13 @@ Using Apple Watch to collect sleep data and syncing the collected data to GitHub
 <!--START_SECTION:my_sleep-->
 | Start Time | End Time |
 | ---- | ---- |
+| Jan 25, 2025 at 02:17 | Jan 25, 2025 at 07:32 |
+| Jan 24, 2025 at 00:50 | Jan 24, 2025 at 05:58 |
+| Jan 23, 2025 at 00:31 | Jan 23, 2025 at 06:58 |
+| Jan 22, 2025 at 00:51 | Jan 22, 2025 at 06:58 |
+| Jan 21, 2025 at 00:04 | Jan 21, 2025 at 06:56 |
+| Jan 20, 2025 at 01:57 | Jan 20, 2025 at 06:58 |
 | Jan 19, 2025 at 00:41 | Jan 19, 2025 at 07:23 |
-| Jan 18, 2025 at 00:57 | Jan 18, 2025 at 09:45 |
-| Jan 17, 2025 at 01:08 | Jan 17, 2025 at 07:07 |
-| Jan 16, 2025 at 00:38 | Jan 16, 2025 at 06:58 |
-| Jan 15, 2025 at 00:33 | Jan 15, 2025 at 07:13 |
-| Jan 14, 2025 at 00:52 | Jan 14, 2025 at 07:02 |
-| Jan 12, 2025 at 23:46 | Jan 13, 2025 at 07:03 |
 
 <!--END_SECTION:my_sleep-->
 
